@@ -26,5 +26,7 @@ for f in "$HYPR_DIR/hyprland.lua" "$HYPR_DIR/bindings.lua"; do
 done
 
 update-desktop-database -q "$DATA_DIR/applications" >/dev/null 2>&1 || true
-command -v hyprctl >/dev/null && hyprctl reload >/dev/null 2>&1 || true
+if command -v hyprctl >/dev/null; then
+  hyprctl reload >/dev/null 2>&1 || true
+fi
 echo ":: jot removed (notes kept in $NOTES)"
