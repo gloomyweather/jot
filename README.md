@@ -6,29 +6,7 @@ made for [omarchy](https://omarchy.org): it floats, follows the current theme li
 notes are plain markdown files in `~/Notes`, one file per note, named after the first line.
 edit them with anything, sync them with anything.
 
-```
-  ◆ jot  ·  5 notes                                                        ~/Notes
-  ────────────────────────────────────────────────────────────────────────────────
-
-  / search                       │   edited 3d ago · 52 words · pinned
-                                 │
-  ▌ * omarchy setup          3d  │   omarchy setup
-  ▌ after a fresh install        │   after a fresh install
-                                 │
-    ideas                   14m  │   packages
-    things to build someday      │   ■ neovim, tmux, ripgrep
-                                 │   ■ rust via rustup
-    groceries                2h  │   □ syncthing for ~/Notes
-    oat milk                     │
-                                 │   keys
-    reading list             1d  │   • super + alt + t → todoterm
-    to finish this winter        │   • super + alt + n → jot
-                                 │
-    rust notes               5d  │   ▎ dotfiles live in git, not in the cloud.
-    small things i forget        │
-
-  n new   ⏎ edit   / search   p pin   d delete   y copy   e nvim   q quit   ? help
-```
+![jot: the note list on the left, the rendered note on the right](.github/screenshot.png)
 
 ## install
 
