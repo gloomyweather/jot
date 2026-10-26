@@ -27,7 +27,7 @@ this installs `~/.local/bin/jot` and:
 * "Notes" and "Quick Note" in the app launcher
 * an icon that recolors itself on `omarchy theme set`
 
-the installer builds jot with cargo, so you need rust (get it from rustup.rs).
+the installer builds jot with cargo, so you need rust (get it from [rustup.rs](https://rustup.rs)).
 
 ### anywhere else
 
